@@ -6,24 +6,40 @@
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>69853570-4733-4583-BA95-992F3FB9353F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Quark</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>9F579EE44B684154FBE099E0437F2B8159345A4A</key>
+		<string>github.com:cpetzold/quark.git</string>
 		<key>C89EDD4DBF1210609F3A458B8547E87C3C4AEA5F</key>
-		<string>https://github.com/raywenderlich/SKTUtils.git</string>
+		<string>git://github.com/raywenderlich/SKTUtils.git</string>
 	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Quark.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>9F579EE44B684154FBE099E0437F2B8159345A4A</key>
+		<string>../..</string>
 		<key>C89EDD4DBF1210609F3A458B8547E87C3C4AEA5F</key>
-		<string>SKTUtils/</string>
+		<string>../..Libraries/SKTUtils/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/raywenderlich/SKTUtils.git</string>
+	<string>github.com:cpetzold/quark.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>C89EDD4DBF1210609F3A458B8547E87C3C4AEA5F</string>
+	<string>9F579EE44B684154FBE099E0437F2B8159345A4A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9F579EE44B684154FBE099E0437F2B8159345A4A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Quark</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

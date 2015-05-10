@@ -31,6 +31,9 @@
 		13B392D21AFB320C00C1A6B0 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B392A91AFB320C00C1A6B0 /* Vector3.swift */; };
 		13B392E41AFB354C00C1A6B0 /* Particle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 13B392E21AFB354C00C1A6B0 /* Particle.sks */; };
 		13B392E51AFB354C00C1A6B0 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 13B392E31AFB354C00C1A6B0 /* spark.png */; };
+		13B3931D1AFF41D600C1A6B0 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B3931C1AFF41D600C1A6B0 /* Game.swift */; };
+		13B3931F1AFF41FD00C1A6B0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B3931E1AFF41FD00C1A6B0 /* Extensions.swift */; };
+		13B393211AFF422300C1A6B0 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B393201AFF422300C1A6B0 /* Level.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +75,9 @@
 		13B392A91AFB320C00C1A6B0 /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
 		13B392E21AFB354C00C1A6B0 /* Particle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Particle.sks; sourceTree = "<group>"; };
 		13B392E31AFB354C00C1A6B0 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		13B3931C1AFF41D600C1A6B0 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		13B3931E1AFF41FD00C1A6B0 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		13B393201AFF422300C1A6B0 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +121,11 @@
 			isa = PBXGroup;
 			children = (
 				1303BF091AF496610076B192 /* AppDelegate.swift */,
-				1303BF0D1AF496610076B192 /* GameScene.swift */,
 				1303BF0F1AF496610076B192 /* GameViewController.swift */,
+				13B3931C1AFF41D600C1A6B0 /* Game.swift */,
+				13B393201AFF422300C1A6B0 /* Level.swift */,
+				1303BF0D1AF496610076B192 /* GameScene.swift */,
+				13B3931E1AFF41FD00C1A6B0 /* Extensions.swift */,
 				1303BF111AF496610076B192 /* Main.storyboard */,
 				1303BF141AF496610076B192 /* Images.xcassets */,
 				1303BF161AF496610076B192 /* LaunchScreen.xib */,
@@ -305,10 +314,13 @@
 				13B392D01AFB320C00C1A6B0 /* SKTEffects.swift in Sources */,
 				13B392D11AFB320C00C1A6B0 /* SKTTimingFunctions.swift in Sources */,
 				1303BF101AF496610076B192 /* GameViewController.swift in Sources */,
+				13B3931F1AFF41FD00C1A6B0 /* Extensions.swift in Sources */,
 				13B392CD1AFB320C00C1A6B0 /* SKColor+Extensions.swift in Sources */,
 				13B392C61AFB320C00C1A6B0 /* README.md in Sources */,
+				13B3931D1AFF41D600C1A6B0 /* Game.swift in Sources */,
 				1303BF0A1AF496610076B192 /* AppDelegate.swift in Sources */,
 				13B392CE1AFB320C00C1A6B0 /* SKNode+Extensions.swift in Sources */,
+				13B393211AFF422300C1A6B0 /* Level.swift in Sources */,
 				13B392D21AFB320C00C1A6B0 /* Vector3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
